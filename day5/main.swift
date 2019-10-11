@@ -97,7 +97,7 @@ f1.basicSalary=1000
 f1.bonus=100
 f1.printData()
 f1.calsalary()
-
+//..
 var f2=Faculty(facultyId: 3, firstName: "Prince", lastName: "jagpal")
 
 f1.firstName="Kuldeep"
