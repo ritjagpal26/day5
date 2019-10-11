@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "day5/main.swift"
-            timestampString = "592524322.7822551"
+            timestampString = "592527504.513923"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "109"
@@ -26,12 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "day5/Student.swift"
-            timestampString = "592525191.161218"
+            timestampString = "592527504.51399"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "deinit"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "calculateTotal()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

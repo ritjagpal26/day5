@@ -17,10 +17,18 @@ struct Student {
     var result : String
     
     
-    init(studentId: Int,studentName: String,marks: [String:Float] ) {
+    init(studentId: Int,studentName: String,marks: [String:Float],percentage: Float,total:Float,result: String ) {
         self.studentId = studentId
         self.studentName = studentName
         self.marks = marks
+        self.percentage = percentage
+        self.total = total
+        self.result = result
+    }
+    init(studentId: Int,studentName: String,marks: [String:Float] ) {
+        self.studentId = 0
+        self.studentName = " "
+        self.marks = [:]
         self.percentage = 0.0
         self.total = 0.0
         self.result = "Unkown"
@@ -30,7 +38,7 @@ struct Student {
 //    }
 //
     mutating func calculateTotal(){
-        self.total = 0.0
+       
         for m in self.marks
         {
             self.total += m.value
@@ -49,7 +57,15 @@ struct Student {
             result = "pass"
         }
     }
-    
+    func printdata()  {
+        print("Student Id is \(studentId)")
+        print("Student name is \(studentName)")
+        print("Marks \(marks)")
+        print("total marks \(total)")
+         print("percentage \(percentage)")
+         print("result \(result)")
+   
+    }
     
     
 }

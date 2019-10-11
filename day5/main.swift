@@ -88,7 +88,7 @@ case (_, vector3D.y , _):
 default:
     break
 }
-var f1=Faculty()
+var f1=Faculty(facultyId: 1, firstName: "Ritik", lastName: "jagpal", basicSalary: 25580, bonus: 258, totalSalary: 658224   )
 //f1.setValues()
 f1.facultyId=1
 f1.firstName="Ritik"
@@ -98,8 +98,8 @@ f1.bonus=100
 f1.printData()
 f1.calsalary()
 
-var f2=Faculty()
-f1.facultyId=2
+var f2=Faculty(facultyId: 3, firstName: "Prince", lastName: "jagpal")
+
 f1.firstName="Kuldeep"
 f1.lastName=" singh"
 f1.basicSalary=900
@@ -107,4 +107,8 @@ f1.bonus=150
 f1.printData()
 f1.calsalary()
 
-
+var s1 = Student(studentId: 1, studentName: "Ritik Jagpal", marks: ["m1":87,"m2":76,"m3":56,"m4":89,"m5":90])
+s1.calculateTotal()
+s1.calculatingPercentage()
+s1.calculateResult()
+s1.printdata()
