@@ -36,7 +36,7 @@ struct Student {
 //    deinit {
 //        print("Student deinit called")
 //    }
-//
+////
     mutating func calculateTotal(){
        
         for m in self.marks
