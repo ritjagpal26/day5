@@ -38,34 +38,24 @@ struct Student {
 //    }
 ////
     mutating func calculateTotal(){
-       
-        for m in self.marks
-        {
-            self.total += m.value
-        }
+       self.total = 0.0
+        for m in self.marks{self.total += m.value}
     }
+    
     mutating func calculatingPercentage(){
         self.percentage = self.total / Float(self.marks.count)
     }
+    
     mutating func calculateResult(){
-        if self.percentage < 50.0
-        {
-            result = "Fail"
-        }
-        else
-        {
-            result = "pass"
-        }
+        if self.percentage < 50.0{result = "Fail"}
+        else{result = "pass"}
     }
-    func printdata()  {
+    func printdata(){
         print("Student Id is \(studentId)")
         print("Student name is \(studentName)")
         print("Marks \(marks)")
         print("total marks \(total)")
          print("percentage \(percentage)")
          print("result \(result)")
-   
     }
-    
-    
 }
